@@ -1,0 +1,21 @@
+{
+  "name": "hardhat-instalation",
+  "version": "1.0.0",
+  "description": "Creates the development environment for Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\\" && exit 1\""
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"Wamata Muriu\"",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.4.1",
+    "ethers": "^6.7.0",
+    "hardhat": "^2.17.1",
+    "hardhat-deploy": "^0.11.34"
+  }
+}
